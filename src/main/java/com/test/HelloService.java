@@ -13,7 +13,7 @@ public class HelloService{
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public JsonObject greetings(){
-        return Json.createObjectBuilder().add("hello", "world").build();
+        return Json.createObjectBuilder().add("hello there", "world").build();
     }
 
 }
